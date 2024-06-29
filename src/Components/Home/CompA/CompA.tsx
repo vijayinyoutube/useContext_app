@@ -1,11 +1,11 @@
 import CompB from "../CompB/CompB";
 
-const CompA = ({ data }: { data: string }) => {
+const CompA = () => {
   return (
     <div>
       CompA
       <div>
-        <CompB data={data} />
+        <CompB />
       </div>
     </div>
   );

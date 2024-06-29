@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import { HomeContext } from "../Home";
 
-const CompB = ({ data }: { data: string }) => {
+const CompB = () => {
+  const { data } = useContext(HomeContext);
+
   return (
     <div>
       CompB
